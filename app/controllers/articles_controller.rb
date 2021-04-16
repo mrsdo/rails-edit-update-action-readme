@@ -47,7 +47,7 @@ class ArticlesController < ApplicationController
   # 5. Redirect the user to the show page so they can see the updated record.
 
   def update
-    # raise params.inspect
+    # raise params.inspect : commented out
     # 1. Query the DB
     @article = Article.find(params[:id])
 
